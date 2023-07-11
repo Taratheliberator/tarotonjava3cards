@@ -44,13 +44,23 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
     private void openRandomCard() {
         Random random = new Random();
         int randomIndex = random.nextInt(tarotCards.length);
         int randomCard = tarotCards[randomIndex];
 
+        boolean isReversed = random.nextBoolean();
+        if (isReversed) {
+            cardImageView.setRotationX(180);  // Flip the card by rotating it 180 degrees around the X-axis
+        } else {
+            cardImageView.setRotationX(0);    // Reset the rotation if not reversed
+        }
+
         cardImageView.setImageResource(randomCard);
         cardImageView.setVisibility(View.VISIBLE);
     }
+
+
 }
 
