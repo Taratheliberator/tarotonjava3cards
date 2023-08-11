@@ -1,1 +1,1 @@
-[![Tarot-one-on-java.png](https://i.postimg.cc/j2KZmsW6/Tarot-one-on-java.png)](https://postimg.cc/MMP7jJmX)
+[![Screenshot-20230811-103041.jpg](https://i.postimg.cc/ydDVFJ1Y/Screenshot-20230811-103041.jpg)](https://postimg.cc/PpksH5vB)
